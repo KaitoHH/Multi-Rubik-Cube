@@ -13,7 +13,7 @@ a Rubki Cube varing from Pocket Cube to V-Cube 7 implemented by C++ with OpenGL 
 - ENTER - have 100 random rotate
 
 ### How to edit in.txt
-this file can contain several rotate instructions, each single instructions are splited by at least one space.
+this file can contain several rotate instructions, each instruction is splited by at least one blank.
 Here is some notes about how to create a single instruction.
 - Support that blue is the front ,yellow is the top, and red is the right plane.
 - a single instruction is consisted of at most 3 parts.
@@ -39,7 +39,7 @@ Here is some example of "in.txt":
 - R2 F2 B2 L2 U F2 R2 L2 B2 D'
 - 3R F2 6B' 1L2 0U F2 R2 L2 B2 D'
 
-**NOTE** that the offest MUST BE LESS than the current cube's level.
+**NOTE:**  the offest MUST BE LESS than the current cube's level.
 
 You will be a bit familiar with it if you have known some equation about cube:)
 
