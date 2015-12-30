@@ -26,7 +26,7 @@ the first part is a single number indictating the offest ,if the offest is zero,
 
 the second part is a signle character,which may be one of F B L R U D , namely front, behind, left, right ,up and down, meaning which plane do you want to rotate. By combing the first part, we can locate certain rotation plane. For example, "2R" means the second plane counting from right plane,while "L", equals "0L", just means the first left plane since the default offest is zero.
 
-**the last part**
+**last part**
 
 the last part is one of three character: single quote,character 2,or just nothing, meaning rotation direction: anticlockwise, double rotate or clockwise.
 
@@ -37,7 +37,7 @@ Here is some example of "in.txt":
 - F B L R F B L R F B L R
 - U' D F' B L R' U' D
 - R2 F2 B2 L2 U F2 R2 L2 B2 D'
-- 3R2 F2 6B2 1L2 0U F2 R2 L2 B2 D'
+- 3R F2 6B' 1L2 0U F2 R2 L2 B2 D'
 
 **NOTE** that the offest MUST BE LESS than the current cube's level.
 
