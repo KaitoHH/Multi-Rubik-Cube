@@ -17,11 +17,11 @@ this file can contain several rotate instructions, each single instructions are 
 Here is some notes about how to create a single instruction.
 - Support that blue is the front ,yellow is the top, and red is the right plane.
 - a single instruction is consisted of at most 3 parts.
-####fisrt part
+*fisrt part*
 the first part is a single number indictating the offest ,if the offest is zero, you can just skip it.
-####second part
+*second part*
 the second part is a signle character,which may be one of F B L R U D ,namely front, behind, left, right ,up and down, meaning which plane do you want to rotate. By combing the first part, we can locate certain rotation plane. For example, "2R" means the second plane counting from right plane,while "L", equals "0L", just means the first left plane since the default offest is zero.
-###the last part
+*the last part*
 the last part is one of three character: single quote,character 2,or just nothing, meaning rotation direction: anticlockwise, double rotate or clockwise.
 
 For example,"3R'" means anticlockwise rotate the third plane counting from the right plane. "U" means clockwise rotate the top plane. "5D" means clockwise rotate the fifth plane counting from the down plane.
@@ -32,7 +32,7 @@ Here is some example of "in.txt":
 - R2 F2 B2 L2 U F2 R2 L2 B2 D'
 - 3R2 F2 6B2 1L2 0U F2 R2 L2 B2 D'
 
-NOTE that the offest MUST BE LESS than the current cube's level.
+*NOTE* that the offest MUST BE LESS than the current cube's level.
 
 You will be a bit familiar with it if you know some equation about cube:)
 
