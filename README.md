@@ -24,7 +24,7 @@ the first part is a single number indictating the offest ,if the offest is zero,
 
 **second part**
 
-the second part is a signle character,which may be one of F B L R U D ,namely front, behind, left, right ,up and down, meaning which plane do you want to rotate. By combing the first part, we can locate certain rotation plane. For example, "2R" means the second plane counting from right plane,while "L", equals "0L", just means the first left plane since the default offest is zero.
+the second part is a signle character,which may be one of F B L R U D , namely front, behind, left, right ,up and down, meaning which plane do you want to rotate. By combing the first part, we can locate certain rotation plane. For example, "2R" means the second plane counting from right plane,while "L", equals "0L", just means the first left plane since the default offest is zero.
 
 **the last part**
 
